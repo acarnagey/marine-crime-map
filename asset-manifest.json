@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/acarnagey/marine-crime-map/static/css/main.410b45f1.css",
+    "main.js": "/acarnagey/marine-crime-map/static/js/main.cf641428.js",
+    "static/media/mapbox-marker-icon-yellow.svg": "/acarnagey/marine-crime-map/static/media/mapbox-marker-icon-yellow.cbfef21b5e2ed96a601136e1c3d93aa1.svg",
+    "index.html": "/acarnagey/marine-crime-map/index.html",
+    "main.410b45f1.css.map": "/acarnagey/marine-crime-map/static/css/main.410b45f1.css.map",
+    "main.cf641428.js.map": "/acarnagey/marine-crime-map/static/js/main.cf641428.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.410b45f1.css",
+    "static/js/main.cf641428.js"
+  ]
+}
