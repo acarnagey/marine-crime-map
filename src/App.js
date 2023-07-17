@@ -7,6 +7,10 @@ import route from "./route.json";
 import piracyReports from "./piracy-report.json";
 import "./App.css";
 import yellowMarker from "./mapbox-marker-icon-yellow.svg";
+import orangeMarker from "./mapbox-marker-icon-orange.svg";
+import blueMarker from "./mapbox-marker-icon-blue.svg";
+import redMarker from "./mapbox-marker-icon-red.svg";
+import purpleMarker from "./mapbox-marker-icon-purple.svg";
 
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX;
 
@@ -96,6 +100,7 @@ const App = () => {
       map.current.on("mouseleave", "piracy-report", () => {
         map.current.getCanvas().style.cursor = "";
       });
+      map.current.addControl(new mapboxgl.FullscreenControl());
     });
   });
 
@@ -107,12 +112,61 @@ const App = () => {
         style={{
           margin: "1rem 0",
           display: "flex",
-          flexDirection: "column",
           alignItems: "center",
+          justifyContent: "center",
+          columnGap: "25px",
         }}
       >
-        <img src={yellowMarker} alt="yellow" width="20" height="48" />
-        <span>Attempted Attack</span>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+          }}
+        >
+          <img src={yellowMarker} alt="yellow" width="20" height="48" />
+          <span>Attempted Attack</span>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+          }}
+        >
+          <img src={orangeMarker} alt="orange" width="20" height="48" />
+          <span>Boarded</span>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+          }}
+        >
+          <img src={blueMarker} alt="blue" width="20" height="48" />
+          <span>Fired upon</span>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+          }}
+        >
+          <img src={redMarker} alt="red" width="20" height="48" />
+          <span>Hijacked</span>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+          }}
+        >
+          <img src={purpleMarker} alt="purple" width="20" height="48" />
+          <span>Suspicious vessel</span>
+        </div>
       </div>
     </div>
   );
