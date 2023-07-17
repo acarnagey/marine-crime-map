@@ -1,14 +1,18 @@
 {
   "files": {
     "main.css": "/marine-crime-map/static/css/main.410b45f1.css",
-    "main.js": "/marine-crime-map/static/js/main.ad83cf79.js",
+    "main.js": "/marine-crime-map/static/js/main.94d37696.js",
+    "static/media/mapbox-marker-icon-blue.svg": "/marine-crime-map/static/media/mapbox-marker-icon-blue.14573f114d8b9d5bcdcacfc26315f40c.svg",
+    "static/media/mapbox-marker-icon-orange.svg": "/marine-crime-map/static/media/mapbox-marker-icon-orange.a768a15f9a5e0032e46eff0fda6ec12b.svg",
+    "static/media/mapbox-marker-icon-purple.svg": "/marine-crime-map/static/media/mapbox-marker-icon-purple.fe876527147bdc440506b2eaf73ab033.svg",
+    "static/media/mapbox-marker-icon-red.svg": "/marine-crime-map/static/media/mapbox-marker-icon-red.cfd2904481792fea6b693a10bc91ed68.svg",
     "static/media/mapbox-marker-icon-yellow.svg": "/marine-crime-map/static/media/mapbox-marker-icon-yellow.cbfef21b5e2ed96a601136e1c3d93aa1.svg",
     "index.html": "/marine-crime-map/index.html",
     "main.410b45f1.css.map": "/marine-crime-map/static/css/main.410b45f1.css.map",
-    "main.ad83cf79.js.map": "/marine-crime-map/static/js/main.ad83cf79.js.map"
+    "main.94d37696.js.map": "/marine-crime-map/static/js/main.94d37696.js.map"
   },
   "entrypoints": [
     "static/css/main.410b45f1.css",
-    "static/js/main.ad83cf79.js"
+    "static/js/main.94d37696.js"
   ]
 }
