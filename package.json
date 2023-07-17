@@ -2,7 +2,7 @@
   "name": "marine-crime-map",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://github.com/acarnagey/marine-crime-map",
+  "homepage": "https://acarnagey.github.io/marine-crime-map",
   "dependencies": {
     "mapbox-gl": "^2.15.0",
     "react": "^18.2.0",
