@@ -1,9 +1,100 @@
 [
   {
+    "id": "080-22",
+    "sitrep": "07.09.2022: 0215 UTC: Posn: Suez Canal Southern Anchorage, Egypt.",
+    "report": "Alert duty crew onboard an anchored container ship noticed two unauthorized persons attempting to board via the anchor chain and directed the searchlight towards the persons resulting in the boarding attempt being aborted and the persons moving away.",
+    "coord": [32.561673, 29.923191],
+    "type": "attempted-attack"
+  },
+  {
     "id": "004-21",
     "sitrep": "14.01.2021: 0849 UTC: Posn: 12:06.1N – 044:26.5E, Gulf of Aden.",
     "report": "While underway, a bulk carrier noticed a skiff approaching. Alarm sounded and all crew mustered. At a distance of 0.2nm weapons and ladders were noticed in the skiff. The onboard armed team fired warning shots, resulting in the skiff aborting and moving away.",
-    "coord": [44.26, 12.06],
+    "coord": [44.265, 12.061],
     "type": "attempted-attack"
+  },
+  {
+    "id": "033-23",
+    "sitrep": "16.04.2023: 2145 UTC: Posn: 03:55.1N – 098:46.2E, Belawan Anchorage, Indonesia.",
+    "report": "Duty watchman onboard an anchored chemical tanker noticed two unauthorised persons near the paint locker and raised the alarm. Seeing the watchman, the persons jumped overboard and escaped in a small wooden boat with stolen ship’s stores. Port Authorities informed through the agent.",
+    "coord": [98.462, 3.551],
+    "type": "boarded"
+  },
+  {
+    "id": "026-23",
+    "sitrep": "Sitrep: 02.04.2023: 2000 UTC: Posn: 01:46.16N – 101:21.73E, OSM Jetty 1, Lubuk Gaung, Indonesia.",
+    "report": "Three persons in a small boat approached a berthed tanker. Duty crew immediately informed the bridge after identifying one unauthorised person onboard the tanker. Seeing the crew alertness, the person escaped without stealing anything. Incident reported to local agent.",
+    "coord": [101.2173, 1.4616],
+    "type": "boarded"
+  },
+  {
+    "id": "061-23",
+    "sitrep": "26.06.2023: 2000 UTC: Posn: 01:42.2N – 101:28.7E, Dumai Inner Anchorage, Indonesia.",
+    "report": "Duty oiler onboard an anchored tanker noticed three robbers armed with steel bars near the engine room. The robbers saw the duty oiler and threatened to attack him, but the oiler managed to run away. Alarm raised and PA announcement made, resulting in the robbers escaping without stealing anything. All crew mustered and a search was carried out. Incident reported to the authorities through the local agent.",
+    "coord": [101.287, 1.422],
+    "type": "boarded"
+  },
+  {
+    "id": "044-23",
+    "sitrep": "09.05.2023: 1600-1800 UTC: Posn: 01:12.90N – 103:21.98E, Singapore Straits.",
+    "report": "Unauthorised persons boarded an unmanned barge under tow, twice within three hours. Incident reported to local authorities via VHF. All crew members reported safe.",
+    "coord": [103.2198, 1.129],
+    "type": "boarded"
+  },
+  {
+    "id": "010-23",
+    "sitrep": "08.02.2023: 0930 UTC: Posn: 01:11.50N – 103:51.74E, Singapore Straits.",
+    "report": "Four unauthorised persons boarded a barge under tow, stole some of its scrap metal cargo and escaped. Master reported the incident to Singapore VTS. All crew members are safe.",
+    "coord": [103.5174, 1.115],
+    "type": "boarded"
+  },
+  {
+    "id": "055-23",
+    "sitrep": "30.04.2023: 1830 UTC: Posn: 01:15.5N – 104:13.0E, Singapore Straits.",
+    "report": "Duty Engineer on board a tanker underway spotted four unauthorized persons and immediately informed the OOW. Alarm raised and crew mustered resulting in the persons escaping without stealing anything. Incident reported to Singapore VTIS.",
+    "coord": [104.13, 1.155],
+    "type": "boarded"
+  },
+  {
+    "id": "003-23",
+    "sitrep": "05.01.2023: 0400-1000 UTC: Posn: 01:21N – 104:21E, Singapore Straits.",
+    "report": "Unauthorised persons boarded a barge laden with scrap metal, stole some of the cargo and escaped. All crew members reported safe.",
+    "coord": [104.21, 1.21],
+    "type": "boarded"
+  },
+  {
+    "id": "047-23",
+    "sitrep": "25.05.2023: 1900-2300 UTC: Posn: 01:26.3N – 104:30.4E, Singapore Straits.",
+    "report": "Duty crew on routine rounds noticed a storeroom broken into and ship’s properties missing. Theft reported to local authorities.",
+    "coord": [104.304, 1.263],
+    "type": "boarded"
+  },
+  {
+    "id": "108-22",
+    "sitrep": "24.11.2022: 1200 UTC: Posn: 02:01.75N – 104:39.26E, Around 32nm East of Tanjung Sedili, Johor, Malaysia.",
+    "report": "Duty crew onboard an anchored container ship noticed a person attempting to board the vessel via hawse pipe. Ship’s horn sounded and crew were alerted resulting in the person escaping.",
+    "coord": [104.304, 1.263],
+    "type": "attempted-attack"
+  },
+  {
+    "id": "119-21",
+    "sitrep": "02.12.2021: 1230 UTC: Posn: 01:03.0N – 103:37.8E, Singapore Straits.",
+    "report": "A bulk carrier underway noticed a boat flashing a light towards the bridge. As the ship altered course the boat followed and continued to flash the light. Alert crew noticed another boat approaching from the quarter and attempting to board using hooks attached with ropes. Master raised the alarm and crew mustered on the poop deck, resulting in the persons aborting the attempted boarding. Incident reported to Singapore VTIS.",
+    "coord": [103.378, 1.03],
+    "type": "attempted-attack"
+  },
+  {
+    "id": "SUS-001",
+    "sitrep": "03.03.2021: 0300 UTC: Posn: 04:32.40N – 119:37.20E, Around 11nm SE of Sibutu Island, Philippines.",
+    "report": "Three persons in a 15 meter long, silver hull speed boat with a red stripe approached a bulk carrier underway at high speed. As the boat closed in to 10 meters from the ship the persons showed some plastic drums and tried to come along side and fasten their boat by throwing ropes towards the ship. Duty officer raised the alarm, all crew mustered and all doors secured. Ship’s whistle sounded continuously, and the Philippines Navy was contacted via VHF Ch.16. The boat continued its approach for around 20 minutes. On hearing the response from the Philippines Navy, the boat diverted and headed towards Sibutu Island.",
+    "coord": [119.372, 4.324],
+    "type": "suspicious-vessel"
+  },
+  {
+    "id": "050-23",
+    "sitrep": "04.06.2023: 1750 UTC: Posn: 14:36.7N – 120:50.5E, Manila Anchorage, Philippines.",
+    "report": "Unnoticed, robbers boarded an anchored container ship, stole ships properties and escaped. Theft noticed by deck crew on routine rounds. Incident reported to VTMS Manila via VHF Ch.16.",
+    "coord": [120.505, 14.367],
+    "type": "boarded"
   }
 ]

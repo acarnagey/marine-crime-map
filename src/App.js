@@ -25,7 +25,7 @@ const App = () => {
       center: [83.24316735223056, 21.691865739539494],
       zoom: 2.310934066772461,
       projection: "naturalEarth",
-      interactive: false,
+      // interactive: false,
     });
     map.current.on("load", () => {
       map.current.addSource("route", {
@@ -52,9 +52,19 @@ const App = () => {
           "line-width": 4,
         },
       });
-      const yellowImg = new Image(20, 48);
-      yellowImg.src = yellowMarker;
-      map.current.addImage("attempted-attack", yellowImg);
+      const imageTypes = [
+        { name: "attempted-attack", src: yellowMarker },
+        { name: "boarded", src: orangeMarker },
+        { name: "fired-upon", src: blueMarker },
+        { name: "hijacked", src: redMarker },
+        { name: "suspicious-vessel", src: purpleMarker },
+      ];
+      for (const imageType of imageTypes) {
+        const image = new Image(20, 48);
+        image.src = imageType.src;
+        map.current.addImage(imageType.name, image);
+      }
+
       const piracyReportFeatures = piracyReports.map((pr) => ({
         type: "Feature",
         properties: {
@@ -101,6 +111,8 @@ const App = () => {
         map.current.getCanvas().style.cursor = "";
       });
       map.current.addControl(new mapboxgl.FullscreenControl());
+      map.current.addControl(new mapboxgl.NavigationControl());
+
     });
   });
 
